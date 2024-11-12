@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="images/logo.png" type="image/x-icon" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script src="./translations.js" defer></script>
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <a data-lang="logo" href="./" class="logo">
+        <i class="fa fa-server"></i> IT atbalsts
+      </a>
+      <div class="apply">
+        <a data-lang="application" class="btn" data-target="#modal-ticket"
+          >Izveidot pieteikumu</a
+        >
+        <a data-lang="pro" class="btn active">Iegādāties PRO</a>
+      </div>
+    </header>
+    <section class="info" id="home">
+      <div class="content">
+        <h1 data-lang="heroTitle">Uzticams IT atbalsts</h1>
+        <p data-lang="heroDesc">
+          Sniedzam kvalitatīvu IT atbalstu privātpersonām un uzņēmumiem dažādās
+          problēmsituācijās ar datoru, tā perifērijas ierīcēm, programmatūru un
+          internetu gan attālināti, gan dodoties pie klienta klātuienē. Iesniedz
+          savu pieteikumu un mēs ar Jums sazināsimies!
+        </p>
+        <a
+          class="btn active"
+          data-target="#modal-ticket"
+          data-lang="application2"
+        >
+          <i class="fa fa-check-circle"></i> Izveidot pieteikumu
+        </a>
+      </div>
+      <div class="image">
+        <img src="images/main.png" alt="" />
+      </div>
+    </section>
+
+    <section class="services">
+      <h1 data-lang="services">Mūsu piedāvātie <span>pakalpojumi</span></h1>
+      <div class="box-container">
+        <div class="box">
+          <i class="fa fa-desktop"></i>
+          <h2 data-lang="service1">Pakalpojums 1</h2>
+          <p data-lang="serviceDesc">Apraksts par konkrēto pakalpojumu</p>
+        </div>
+        <div class="box">
+          <i class="fa fa-download"></i>
+          <h2 data-lang="service2">Pakalpojums 2</h2>
+          <p data-lang="serviceDesc">Apraksts par konkrēto pakalpojumu</p>
+        </div>
+        <div class="box">
+          <i class="fa fa-wifi"></i>
+          <h2 data-lang="service3">Pakalpojums 3</h2>
+          <p data-lang="serviceDesc">Apraksts par konkrēto pakalpojumu</p>
+        </div>
+        <div class="box">
+          <i class="fa fa-server"></i>
+          <h2 data-lang="service4">Pakalpojums 4</h2>
+          <p data-lang="serviceDesc">Apraksts par konkrēto pakalpojumu</p>
+        </div>
+      </div>
+    </section>
+    <section class="info" id="pro">
+      <div class="image">
+        <img src="images/pro.png" alt="" />
+      </div>
+      <div class="content">
+        <h1 data-lang="getPro">Iegādājies <span>PRO</span> plānu</h1>
+        <p data-lang="getProDesc">
+          Izvēlies maksas plānu PRO, mūsu speciālisti ar Jums sazināsies daudz
+          ātrāk nekā tas ir bezmaksas versijā! Turklāt visiem klātienes
+          pakalpojumiem tiks piešķirta 50% atlaide.
+        </p>
+        <a data-lang="getProPrice" class="btn active">
+          <i class="fa fa-check-circle"></i> Iegādāties PRO tikai par 99<sup
+            >99</sup
+          >
+          EUR/gadā
+        </a>
+      </div>
+    </section>
+
+    <!-- patstavigais darbs -->
+
+    <section class="feedback">
+      <h1></h1>
+      <div class="box-container">
+        <div class="box">
+          <div class="icon">
+            <i class="fa-solid fa-quote-left"></i>
+          </div>
+          <div class="content">
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio cum
+              mollitia voluptatem illum eaque animi, fuga officiis dignissimos
+              labore quod deleniti ipsum, culpa qui nobis! Labore, totam. Sint,
+              esse numquam.
+            </p>
+          </div>
+
+          <div class="author">
+            <div class="person">
+              <h3>Andrejs Zariņš</h3>
+              <div class="stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+            </div>
+            <div class="person-image">
+              <img src="./images/team/team-2.jpg" />
+            </div>
+          </div>
+        </div>
+        <div class="box">
+          <div class="icon">
+            <i class="fa-solid fa-quote-left"></i>
+          </div>
+          <div class="content">
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio cum
+              mollitia voluptatem illum eaque animi, fuga officiis dignissimos
+              labore quod deleniti ipsum, culpa qui nobis! Labore, totam. Sint,
+              esse numquam.
+            </p>
+          </div>
+
+          <div class="author">
+            <div class="person">
+              <h3>Jānis Kļaviņš</h3>
+              <div class="stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+            </div>
+            <div class="person-image">
+              <img src="./images/team/team-3.jpg" />
+            </div>
+          </div>
+        </div>
+        <div class="box">
+          <div class="icon">
+            <i class="fa-solid fa-quote-left"></i>
+          </div>
+          <div class="content">
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio cum
+              mollitia voluptatem illum eaque animi, fuga officiis dignissimos
+              labore quod deleniti ipsum, culpa qui nobis! Labore, totam. Sint,
+              esse numquam.
+            </p>
+          </div>
+
+          <div class="author">
+            <div class="person">
+              <h3>Agnese Lapiņa</h3>
+              <div class="stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+            </div>
+            <div class="person-image">
+              <img src="./images/team/team-4.jpg" />
+            </div>
+          </div>
+        </div>
+        <div class="box">
+          <div class="icon">
+            <i class="fa-solid fa-quote-left"></i>
+          </div>
+          <div class="content">
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio cum
+              mollitia voluptatem illum eaque animi, fuga officiis dignissimos
+              labore quod deleniti ipsum, culpa qui nobis! Labore, totam. Sint,
+              esse numquam.
+            </p>
+          </div>
+
+          <div class="author">
+            <div class="person">
+              <h3>Kārlis Liepiņš</h3>
+              <div class="stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half"></i>
+              </div>
+            </div>
+            <div class="person-image">
+              <img src="./images/team/team-5.jpg" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <section class="big-section">
+        <div class="lang">
+          <h2 data-lang="lang">Valodas</h2>
+          <div>
+            <i class="fa-solid fa-location-dot"></i>
+            <a class="language-switcher" id="lv" data-lang="lv">Latviešu</a>
+          </div>
+          <div>
+            <i class="fa-solid fa-location-dot"></i>
+            <a class="language-switcher" id="en" data-lang="en">Angļu</a>
+          </div>
+          <div>
+            <i class="fa-solid fa-location-dot"></i>
+            <a class="language-switcher" id="ru" data-lang="ru">Krievu</a>
+          </div>
+        </div>
+        <div class="contact">
+          <h2 data-lang="contact">Kontakti</h2>
+          <div>
+            <i class="fa-solid fa-phone"></i>
+            <p>+371 29 999 999</p>
+          </div>
+          <div>
+            <i class="fa-solid fa-envelope"></i>
+            <a href="mailto:it@atbalsts.lv"> it@atbalsts.lv</a>
+          </div>
+          <div>
+            <i class="fa-solid fa-location-dot"></i>
+            <a href="#" data-lang="location">Ventspils iela 51, Liepāja</a>
+          </div>
+          <button class="contact-form">
+            <i class="fa-solid fa-envelope"></i>
+            <a href="mailto:it@atbalsts.lv" data-lang="contactForm"
+              >Kontaktforma saziņai</a
+            >
+          </button>
+        </div>
+        <div class="follow-us">
+          <h2 data-lang="followUs">Seko mums</h2>
+          <div class="places">
+            <a class="place">
+              <i class="fa-brands fa-facebook-f"></i>
+            </a>
+            <a class="place">
+              <i class="fa-brands fa-linkedin"></i>
+            </a>
+            <a class="place">
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+          </div>
+        </div>
+      </section>
+      <section class="small-section">
+        <p data-lang="copyrights">
+          Visas autortiesības aizsargātas - IT atbalsts @ 2024
+        </p>
+      </section>
+    </footer>
+
+    <!-- patstavigais darbs -->
+
+    <!-- MODAL logi -->
+
+    <div class="modal" id="modal-ticket">
+      <div class="modal-box">
+        <div class="close-modal" data-target="#modal-ticket">
+          <i class="fa fa-times"></i>
+        </div>
+        <h2>Izveidot jaunu pieteikumu</h2>
+        <form action="" method="POST">
+          <label>Vārds:</label>
+          <input type="text" name="vards" required />
+          <label>Uzvārds:</label>
+          <input type="text" name="uzvards" required />
+          <label>E-pasta adrese:</label>
+          <input type="email" name="epasts" required />
+          <label>Tālruņa nummurs:</label>
+          <input type="tel" pattern="[0-9][8]" name="talrunis" required />
+          <label>Problēmas / veicamā uzdevuma apraksts:</label>
+          <textarea name="apraksts" rows="4" required></textarea>
+          <button type="submit" name="nosutit" class="btn active">
+            Nosūtīt
+          </button>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
