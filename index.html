@@ -289,19 +289,26 @@
         <div class="close-modal" data-target="#modal-ticket">
           <i class="fa fa-times"></i>
         </div>
-        <h2>Izveidot jaunu pieteikumu</h2>
+        <h2 data-lang="applicationMake">Izveidot jaunu pieteikumu</h2>
         <form action="" method="POST">
-          <label>Vārds:</label>
+          <label data-lang="name">Vārds:</label>
           <input type="text" name="vards" required />
-          <label>Uzvārds:</label>
+          <label data-lang="lastName">Uzvārds:</label>
           <input type="text" name="uzvards" required />
-          <label>E-pasta adrese:</label>
+          <label data-lang="email">E-pasta adrese:</label>
           <input type="email" name="epasts" required />
-          <label>Tālruņa nummurs:</label>
+          <label data-lang="phone">Tālruņa nummurs:</label>
           <input type="tel" pattern="[0-9][8]" name="talrunis" required />
-          <label>Problēmas / veicamā uzdevuma apraksts:</label>
+          <label data-lang="description"
+            >Problēmas / veicamā uzdevuma apraksts:</label
+          >
           <textarea name="apraksts" rows="4" required></textarea>
-          <button type="submit" name="nosutit" class="btn active">
+          <button
+            data-lang="submit"
+            type="submit"
+            name="nosutit"
+            class="btn active"
+          >
             Nosūtīt
           </button>
         </form>
